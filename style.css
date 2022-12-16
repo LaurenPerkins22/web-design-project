@@ -1,0 +1,233 @@
+body{
+    Font-family: sans-serif;
+}
+  h1 {
+    font-style:oblique;
+    font-size: 55px;
+
+  }
+
+
+  .navigation{
+    margin: 0px;
+    background-color: #B4AFA7;
+    padding: .5em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-bar{
+    word-spacing: 17px;
+    font-size: 15px;
+    font-family: arial;
+   text-align: right;
+   
+
+  }
+  
+  .nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-bar ul li{
+    display: inline-block;
+    -webkit-transition: border 1s, border-radius .25s, padding 1s, background-color 1s, color 1s;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  
+ 
+    
+  }
+
+  .logo {
+    width: 70px;
+  }
+
+  .logo img {
+    max-width: 100%;
+  }
+  
+   .section {
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+   }
+
+
+   .left-col {
+    
+     width: auto;
+   
+   
+   }
+
+   .center-col {
+    
+    flex: 2;
+    text-align: center;
+   }
+   .center-col p {
+
+    text-align: center;
+    font-size: 14px;
+}
+
+
+   .right-col {
+    
+    width: auto;
+    
+   }
+
+
+   .two-col {
+    flex: 1;
+    
+    
+   }
+.two-col p{
+
+  text-align:center;
+  font-size: 17px;
+  font-style:inherit
+
+}
+
+.home {
+
+   padding-right:  35%;
+}
+
+
+.hero {
+    background: url(images/hero-clay-bowls.png);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+   /* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  
+
+  
+  /* Centered text */
+  .hero-title {
+    color: white;
+ }
+
+
+  
+ h2 {text-align: center;}
+
+
+
+ p {text-align: left;
+ 
+    
+
+}
+
+
+.four-col {
+  width: 135px;
+  float: left;
+  padding-top: 5%;
+  padding: 5%;
+  
+  }
+
+  .three-col {
+    width: 135px;
+    float: left;
+    padding-top: 5%;
+    padding: 5%;
+    
+
+  }
+
+
+  .article-section {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .article-card {
+    flex: 1;
+  }
+
+  .article-card-photo img {
+   width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+
+  .footer{
+  text-align: center;
+  padding: 2px;
+  background-color: #B4AFA7;
+  margin: 3px;
+  background-color: #B4AFA7;
+  padding: .5em 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+p{
+  font-size: 12px;
+}
+
+
+
+h2{
+  font-style:oblique;
+}
+  
+
+  
+.footer p{ 
+  color: #5E431C;
+}
+
+
+ 
+  button{ 
+    color:#5E431C
+  }
+
+
+ 
+  
+  
+  
+  
+   
+
+  
+  
+  
+
